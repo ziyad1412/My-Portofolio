@@ -31,6 +31,6 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: /cv.kajicode.com/ # hanya ini aja yang diubah
+          server-dir: /home/kajicod1/cv.kajicode.com/
           local-dir: build/
           dangerous-clean-slate: true
