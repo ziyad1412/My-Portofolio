@@ -26,7 +26,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="w-full h-max bg-gradient-to-b from-gray-800 via-black to-gray-800 text-gray-300"
+      className="w-full h-max bg-gradient-to-b from-gray-800 via-black to-gray-800 text-gray-300 pt-5"
     >
       {/* Container */}
       <div className="max-w-[1210px] mx-auto p-4 flex flex-col justify-center w-full h-full">
