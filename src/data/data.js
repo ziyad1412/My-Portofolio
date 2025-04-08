@@ -1,9 +1,17 @@
-import Iqf from "../assets/projects/1.png";
-import Covid from "../assets/projects/2.png";
-import Nflix from "../assets/projects/3.png";
-import Movie from "../assets/projects/4.png";
-import Sig from "../assets/projects/5.png";
-import Blog from "../assets/projects/6.png";
+import Iqf from "../assets/projects/1.jpg";
+import Covid from "../assets/projects/2.jpg";
+import Nflix from "../assets/projects/3.jpg";
+import Movie from "../assets/projects/4.jpg";
+import Sig from "../assets/projects/5.jpg";
+import Shop from "../assets/projects/6.jpg";
+import Ticket from "../assets/projects/7.jpg";
+import Temu from "../assets/projects/8.jpg";
+import PDA from "../assets/projects/9.jpg";
+import LTQ from "../assets/projects/10.jpg";
+import Job from "../assets/projects/11.jpg";
+import Galecok from "../assets/projects/12.jpg";
+import Enkripa from "../assets/projects/13.jpg";
+import Clever from "../assets/projects/14.jpg";
 
 export const data = [
   {
@@ -43,9 +51,65 @@ export const data = [
   },
   {
     id: 6,
-    name: "Website Blog Laravel",
-    image: Blog,
-    github: "https://blog.kajicode.my.id/",
-    live: "https://blog.kajicode.my.id/",
+    name: "E-Commerce Laravel",
+    image: Shop,
+    github: "http://shop.kajicode.my.id/",
+    live: "http://shop.kajicode.my.id/",
+  },
+  {
+    id: 7,
+    name: "Ticketing App",
+    image: Ticket,
+    github: "https://staging-aero-swift.netlify.app/",
+    live: "https://staging-aero-swift.netlify.app/",
+  },
+  {
+    id: 8,
+    name: "Company Profile TemuGrow",
+    image: Temu,
+    github: "https://temugrowtryout.com/",
+    live: "https://temugrowtryout.com/",
+  },
+  {
+    id: 9,
+    name: "Company Profile PDA",
+    image: PDA,
+    github: "https://putratunggaldaya.com/",
+    live: "https://putratunggaldaya.com/",
+  },
+  {
+    id: 10,
+    name: "Company Profile LTQ",
+    image: LTQ,
+    github: "https://ltqalquds.my.id/",
+    live: "https://ltqalquds.my.id/",
+  },
+  {
+    id: 11,
+    name: "Job Portal Web",
+    image: Job,
+    github: "https://bwa-job-hunt.vercel.app/",
+    live: "https://bwa-job-hunt.vercel.app/",
+  },
+  {
+    id: 12,
+    name: "Landing Page UMKM",
+    image: Galecok,
+    github: "https://ciamis.kajicode.my.id/",
+    live: "https://ciamis.kajicode.my.id/",
+  },
+  {
+    id: 13,
+    name: "Company Profile Enkripa",
+    image: Enkripa,
+    github: "https://enkripa.id/",
+    live: "https://enkripa.id/",
+  },
+  {
+    id: 14,
+    name: "Landing Page Clever",
+    image: Clever,
+    github: "http://educleverly.com/",
+    live: "http://educleverly.com/",
   },
 ];

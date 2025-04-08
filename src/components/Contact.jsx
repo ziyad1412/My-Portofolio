@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 via-black to-black flex justify-center items-center p-4"
+      className="pt-32 w-full h-auto min-h-screen bg-gradient-to-b from-gray-800 via-black to-black flex justify-center p-4"
     >
       <form
         method="POST"
@@ -16,7 +16,7 @@ const Contact = () => {
             Contact Me
           </p>
           <p className="text-gray-300 py-4">
-            Submit the form below or shoot me an email -
+            Submit the form below or shoot me an email :
             <a href="mailto:abdurrahman.ziyad17@gmail.com">
               abdurrahman.ziyad17@gmail.com
             </a>

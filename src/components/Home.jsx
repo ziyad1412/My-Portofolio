@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-scroll";
-import { HiArrowNarrowRight } from "react-icons/hi";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import ZiyadImage from "../assets/Ziyad.jpg";
+import { saveAs } from "file-saver";
+import cvPdf from "../assets/Abdurrahman Ziyad_CV.pdf";
 
 const Home = () => {
-  const handleClick = () => {};
+  const handleDownload = () => {
+    saveAs(cvPdf, "CV.pdf");
+  };
   return (
     <div
       name="home"
@@ -16,13 +19,19 @@ const Home = () => {
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
             I'm a Full stack Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            I’m a web developer specializing in building (and occasionally
-            designing) exceptional digital experiences. Currently, I’m focused
-            on building responsive full-stack web applications.
+          <p className="text-gray-400 py-4 max-w-md">
+            I specialize in developing full-stack web applications, managing
+            databases for optimal performance, and creating intuitive user
+            interfaces.
           </p>
 
-          <div>
+          <div className="flex space-x-4">
+            <button
+              onClick={handleDownload}
+              className="text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-400 to-blue-600 cursor-pointer"
+            >
+              Download CV
+            </button>
             <Link
               to="work"
               smooth
