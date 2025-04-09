@@ -72,7 +72,7 @@ const About = () => {
                   <p>
                     <strong>IT Engineer</strong> - PT Enkripa Teknologi
                   </p>
-                  <p className="text-sm text-gray-400">Aug 2024 – Feb 2025</p>
+                  <p className="text-sm text-gray-400">Aug 2024 – Apr 2025</p>
                 </li>
               </ul>
             </div>
