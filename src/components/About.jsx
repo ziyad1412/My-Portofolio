@@ -23,11 +23,11 @@ const About = () => {
           {/* Description */}
           <div className="font-medium mb-6">
             <p>
-              I'm a fresh graduate in Informatics Engineering with over 2 years
-              of experience as a full-stack developer. I specialize in creating
-              websites and applications and am passionate about learning new
-              technologies. I’ve worked with diverse teams and on multiple
-              projects, constantly improving my technical and soft skills.
+              Fullstack Developer with over 2 years of proven professional
+              experience. I specialize in creating websites and applications and
+              am passionate about learning new technologies. I’ve worked with
+              diverse teams and on multiple projects, constantly improving my
+              technical and soft skills.
             </p>
           </div>
 
@@ -60,13 +60,13 @@ const About = () => {
                   <p>
                     <strong>Fullstack Web Developer</strong> - LPPM STT NF
                   </p>
-                  <p className="text-sm text-gray-400">Feb 2023 – Feb 2024</p>
+                  <p className="text-sm text-gray-400">Jan 2023 – Jul 2023</p>
                 </li>
                 <li>
                   <p>
-                    <strong>Web Developer</strong> - PT Bermuda Corporindo
+                    <strong>Fullstack Developer</strong> - PT Bermuda Corporindo
                   </p>
-                  <p className="text-sm text-gray-400">Feb 2024 – Aug 2024</p>
+                  <p className="text-sm text-gray-400">Jul 2023 – Aug 2024</p>
                 </li>
                 <li>
                   <p>
