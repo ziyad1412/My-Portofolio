@@ -12,6 +12,7 @@ import Job from "../assets/projects/11.jpg";
 import Galecok from "../assets/projects/12.jpg";
 import Enkripa from "../assets/projects/13.jpg";
 import Clever from "../assets/projects/14.jpg";
+import Kaji from "../assets/projects/15.jpg";
 
 export const data = [
   {
@@ -111,5 +112,12 @@ export const data = [
     image: Clever,
     github: "http://educleverly.com/",
     live: "http://educleverly.com/",
+  },
+  {
+    id: 15,
+    name: "Company Profile Kajicode",
+    image: Kaji,
+    github: "https://kajicode.com/",
+    live: "https://kajicode.com/",
   },
 ];
