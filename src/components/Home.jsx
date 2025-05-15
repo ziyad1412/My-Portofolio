@@ -2,12 +2,13 @@ import React from "react";
 import { Link } from "react-scroll";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import ZiyadImage from "../assets/Ziyad.jpg";
-import { saveAs } from "file-saver";
-import cvPdf from "../assets/Abdurrahman Ziyad_CV.pdf";
 
 const Home = () => {
   const handleDownload = () => {
-    saveAs(cvPdf, "CV.pdf");
+    window.open(
+      "https://docs.google.com/document/d/1228eyeJqTwbbeaaO5EqFy1gCG7eyh-t5eVSuegno44U",
+      "_blank"
+    );
   };
   return (
     <div
